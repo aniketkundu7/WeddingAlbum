@@ -1,0 +1,10 @@
+<div class="d-flex bd-highlight">
+  <div class="p-2 flex-fill bd-highlight">
+    <p-button type="text" (click)="displayLeftSidebar = true" icon="pi pi-plus" label="Show"></p-button>
+    <p-sidebar [(visible)]="displayLeftSidebar">
+      Content
+    </p-sidebar>
+  </div>
+  <div class="p-2 flex-fill bd-highlight">Flex item</div>
+  <div class="p-2 flex-fill bd-highlight">Flex item</div>
+</div>
