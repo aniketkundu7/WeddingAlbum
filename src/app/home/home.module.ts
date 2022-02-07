@@ -7,8 +7,9 @@ import { MatTabsModule } from '@angular/material/tabs';
 import {ChartModule} from "./chart/chart.module";
 import { SidebarModule } from 'primeng/sidebar';
 import { ButtonModule } from 'primeng/button';
-
-
+import {CheckboxModule} from 'primeng/checkbox';
+import { FormsModule } from '@angular/forms';
+import {GalleriaModule} from 'primeng/galleria';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,9 @@ import { ButtonModule } from 'primeng/button';
     ChartModule,
     SidebarModule,
     ButtonModule,
-  ]
+    CheckboxModule,
+    FormsModule,
+    GalleriaModule,
+  ] 
 })
 export class HomeModule { }
